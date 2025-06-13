@@ -1,0 +1,22 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "oracleOptions": {
+                "privilege": "SYSDBA",
+                "thickMode": false,
+                "autoCommit": false,
+                "lowerCase": false,
+                "limitPrefetchRows": false
+            },
+            "previewLimit": 50,
+            "server": "10.0.0.172",
+            "port": 1521,
+            "driver": "Oracle",
+            "name": "gourmet_db",
+            "database": "xe",
+            "username": "SYS",
+            "password": "Kidsyri020507"
+        }
+    ]
+}
